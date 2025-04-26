@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.custom-tabs .ant-tabs-ink-bar {
+  background-color: #46A358 !important;
+}
