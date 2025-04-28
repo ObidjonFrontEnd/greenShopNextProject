@@ -1,9 +1,20 @@
 import React from 'react'
+import Hero from './components/hero'
+import HomeMain from './components/main'
 
-const Home = () => {
+
+
+const HomeComponents = () => {
+	
+	
 	return (
-		<div>Home</div>
+		<div>
+			 <Hero />
+		
+				<HomeMain/>
+			
+		</div>
 	)
 }
 
-export default Home
+export default HomeComponents
